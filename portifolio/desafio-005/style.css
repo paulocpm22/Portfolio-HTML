@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    background-color: rgba(5, 44, 3);
+    background-image: linear-gradient( to left, white, 30%, rgba(0, 128, 0, 0.741));
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1 {
+    color: rgb(5, 44, 3);
+    background-image: linear-gradient( to top, white, 70%, rgba(0, 128, 0, 0.741));
+    padding: 10px;
+    border-radius: 10px;
+   box-shadow: 3px 3px 3px  rgba(3, 78, 13, 0.359);
+   text-shadow: 2px 2px 4px rgba(3, 78, 13, 0.359);
+   text-align: center;
+  margin: 10px auto 12px auto;
+  width: 90%;
+   
+}
+
+
+h2 {
+    color: rgb(5, 44, 3);
+     text-shadow: 2px 2px 4px rgba(3, 78, 13, 0.656);
+     text-decoration: underline;
+    text-indent: 10px; /* controla o recuo */
+  margin-bottom: 5px; /* espaço entre os itens na vertical */
+  margin-top: 5px;
+}
+
+div h2 {
+  text-indent: 150px;
+}
+
+img {
+    box-shadow: 3px 3px 3px  rgba(3, 78, 13, 0.447);
+     border-radius: 90px;
+     display: block;
+    margin: 0 auto 12px auto; /* centraliza no meio */
+}
+
+p {
+     color: rgb(5, 44, 3);
+    text-indent: 30px; /* controla o tamanho do recuo */
+    text-align: justify; /* opcional, deixa o texto alinhado */
+     text-shadow: 2px 2px 4px rgba(3, 78, 13, 0.656);
+      background-image: linear-gradient( to left, white, 95%, rgba(0, 128, 0, 0.741));
+    padding: 10px 20px;
+    border-radius: 10px;
+   box-shadow: 3px 3px 3px  rgba(3, 78, 13, 0.359);
+   width: 90%;
+    margin: 0 auto 12px; /* centraliza no meio */
+}
+
+p + h2 {
+  margin-top: 5px; 
+}
+main {
+  background-color: rgb(3, 50, 17);
+    background-image: linear-gradient( to right, white, 80%, rgba(0, 128, 0, 0.741));
+    width: 500px;
+    margin: 10px auto;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 3px 3px 5px  rgba(0, 0, 0, 0.56);
+}
+
+.redes {
+  display: flex;
+  justify-content: center; /* centraliza horizontalmente */
+  align-items: center; /* centraliza verticalmente */
+  gap: 15px; /* controla o espaço entre os ícones */
+  margin-top: 5px;
+}
+
+.icone {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%; /* deixa redondo */
+  margin: 10px;
+  transition: transform 0.3s;
+}
+
+.icone:hover {
+  transform: scale(1.1);
+}
+
